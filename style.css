@@ -5,23 +5,23 @@
     text-decoration: none;
 }
 
-.header {
+.header { /* pikk riba terve ekraani laiuses */
     height: 100px;
     width: 100%;
     display: block;
-    background-color: lightslategray;
+    background-color: #f2dda4;
 }
 
-.inner_block_h {
+.inner_block_h { /* pika riba sees olev väiksem riba */
     height: 100%;
     width: 1000px;
     display: block;
     margin: 0 auto;
-    background-color: lightslategray;
+    background-color: #f2dda4;
 }
 
 
-.logo_block h1 {
+.logo_block h1 { /* logo jaoks eraldatud osa h1 */
     height: 100%;
     display: table-cell;
     vertical-align: middle;
@@ -30,18 +30,18 @@
     font-size: 30px;
 }
 
-.logo_block {
+.logo_block { /* logo jaoks eraldatud osa */
     height: 100%;
     float: left;
     display: table;
 }
 
-.menu {
+.menu { /* menüü ise paikneb paremale */
     height: 100%;
     float: right;
 }
 
-.menu a {
+.menu a { /* menüü a */
     height: 100%;
     display: table;
     font-family: "Poppins", sans-serif;
@@ -53,7 +53,7 @@
 }
 
 .menu a:hover {
-    color: yellow;
+    color: #a3c4bc;
 }
 
 .menu a li {
@@ -62,16 +62,16 @@
     vertical-align: middle;
 }
 
-.footer {
+.footer { /* footer riba */
     width: 100vw;
     display: block;
     overflow: hidden;
     padding: 70px 0;
     box-sizing: border-box;
-    background-color: lightslategray;
+    background-color: #f2dda4;
 }
 
-.inner_block_f {
+.inner_block_f { /* eraldatud osa kuhu käib sisu */
     display: block;
     margin: 0 auto;
     width: 1100px;
@@ -117,12 +117,94 @@
     font-size: 20px;
     padding-bottom: 5px;
     display: block;
+    cursor: pointer;
 }
 
 .inner_block_f .footer_sc a:hover {
-    color: yellow;
+    color: #413c58;
 }
 
 #upbutton:hover {
-    color: yellow;
+    color: #413c58;
+}
+
+.kontaktkast {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.kontaktkast p {
+    margin-bottom: 40px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.kontaktkast h1 {
+    margin-bottom: 20px;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.kontaktkast2 {
+    background: #fff;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+}
+
+.kontaktkast2-vasak {
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+
+.kontaktkast2-parem {
+    flex-basis: 40%;
+    padding: 40px;
+    background: black;
+    color: white;
+}
+
+.sisestuskast {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+textarea {
+    border: 3px solid gray;
+    outline: none;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box; /* et sisestuskast oleks kohakuti ülemiste sisestuskastidega */
+}
+
+.kontaktkast2-vasak a { /* menüü a */
+    height: 100%;
+    display: table;
+    font-family: "Poppins", sans-serif;
+    vertical-align: middle;
+    font-size: 25px;
+    padding: 0px 25px;
+    float: left;
+    color: white;
+    background-color: black;
+    margin-top: 10px;
+}
+
+.kontaktkast2-vasak a:hover {
+    color: #f2dda4;
+}
+
+.kontaktkast2-parem h3 {
+    color: #f2dda4;
+}
+
+.kontaktkast2-parem td {
+    padding-right: 10px;
+    padding-bottom: 25px;
+}
+
+.kaartkast {
+    width: 100%;
+    height: 300px;
 }
