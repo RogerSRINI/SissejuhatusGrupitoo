@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #413c58;
+}
+
+.suurkast {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.suurkast h1 {
+    color: #ffffff;
+    padding: 11px;
+}
+
+.suurkast p {
+    color:#ffffff;
+    padding-top: 20px;
+    padding: 11px;
+}
+
+.veerg {
+    float: left;
+    width: 33%;
+    padding: 10px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.rida:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.hinna_kaart {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #BFD7B5;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.hinna_kaart button{
+    border: none;
+    outline: 0;
+    padding: 11px;
+    color: #F2DDA4;
+    background-color: #36423f;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 19px;
+}
+
+.hinna_kaart button:hover {
+    opacity: 0.9;
+}
+
+.hind {
+    color: #413c58;
+    font-size: 22px;
+}
