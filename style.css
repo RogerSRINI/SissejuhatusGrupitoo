@@ -5,6 +5,10 @@
     text-decoration: none;
 }
 
+body {
+    background-color: #413c58;
+}
+
 .header { /* pikk riba terve ekraani laiuses */
     height: 100px;
     width: 100%;
@@ -41,25 +45,25 @@
     float: right;
 }
 
-.menu a { /* menüü a */
+.menu li { /* menüü li */
     height: 100%;
     display: table;
-    font-family: "Poppins", sans-serif;
     vertical-align: middle;
-    font-size: 25px;
     padding: 0px 25px;
     float: left;
-    color: black;
 }
 
-.menu a:hover {
+.menu li:hover a {
     color: #a3c4bc;
 }
 
-.menu a li {
+.menu li a {
     height: 100%;
     display: table-cell;
     vertical-align: middle;
+    color: black;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
 }
 
 .footer { /* footer riba */
@@ -207,4 +211,9 @@ textarea {
 .kaartkast {
     width: 100%;
     height: 300px;
+}
+
+.kaartkast iframe {
+    width: 100%;
+    height: 100%;
 }
