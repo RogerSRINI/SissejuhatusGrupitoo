@@ -182,7 +182,7 @@ textarea {
     box-sizing: border-box; /* et sisestuskast oleks kohakuti ülemiste sisestuskastidega */
 }
 
-.kontaktkast2-vasak a { /* menüü a */
+.kontaktkast2-vasak button { /* sisestusnupp */
     height: 100%;
     display: table;
     font-family: "Poppins", sans-serif;
@@ -195,7 +195,7 @@ textarea {
     margin-top: 10px;
 }
 
-.kontaktkast2-vasak a:hover {
+.kontaktkast2-vasak button:hover {
     color: #f2dda4;
 }
 

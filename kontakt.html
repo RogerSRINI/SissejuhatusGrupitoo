@@ -35,24 +35,25 @@
             <div class="kontaktkast2">
                 <div class="kontaktkast2-vasak">
                     <h3>Pane soovid teele:</h3>
-                    <form>
+                    <form id="kontaktivorm">
                         <div class="sisestuskast">
                             <div class="ryhm">
                             <label>Nimi:</label>
-                            <input type="text" placeholder="Nimi">
+                            <input type="text" placeholder="Nimi" required>
                             </div>
                             <div class="ryhm">
                                 <label>E-mail:</label>
-                                <input type="text" placeholder="E-mail">
+                                <input id="email" type="text" placeholder="E-mail" required onblur="validation(this);">
                             </div> 
                             <div class="ryhm">
                                 <label>Telefon:</label>
-                                <input type="text" placeholder="+372">
+                                <input type="text" placeholder="+372" required>
                             </div> 
                         </div>
                     <label>Sõnum</label>
                     <textarea rows="5" placeholder="Sõnum"></textarea>
-                    <a href="#">Saada</a>
+                    <button type="submit">Saada</button>
+                    <!--<a href="#">Saada</a> -->
                     </form>
                 </div>
                 <div class="kontaktkast2-parem">
