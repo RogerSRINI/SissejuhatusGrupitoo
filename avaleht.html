@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ee">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style_avaleht.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+    <title>
+        Kontakt
+    </title>
+    <meta charset="UTF-8">
+
+</head>
+<body>
+    <div>
+        <!--video element-->
+        <video width="100%" autoplay loop muted>
+            <source src="sepaVideo.mp4" type="video/mp4">
+            Teie brauser ei toeta video näitamist.
+        </video>
+        <!--tekst, mis ilmub video kohale-->
+        <div class="overlay">
+            <p class="overlayText">Sepp Sepo</p>
+        </div>
+        <div>
+            <!--kaartide container-->
+            <div class="bodyCards">
+                <!--pildi kaart-->
+                <div class="pictureCard">
+                    <img class="portrait" src="seppSepo.jpg" alt="Sepp Sepos">
+                </div>
+                <!--teksti kaart-->
+                <div class="textCard">
+                    <p>
+                        Tere, olen Sepo ja minu kireks on nugade valmistamine. Olen sepa ametit pidanud juba üle 10 aasta.
+                        Kui soovid mind toetada, siis saad seda teha <a href="hinnakiri.html">siin</a>.
+                        Minuga saab kontakteeruda <a href="kontakt.html">siin</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Footer osa -->
+<!-- Suur kast -->
+    <div class="footer">
+        <!-- Suure kasti sees väiksem kast -->
+        <div class="inner_block_f">
+            <!-- Logo jaoks eraldatud osa -->
+            <div class="logo_block">
+                <img src="logo.png" alt="Sepp Sepo"> <!-- http://clipart-library.com/clipart/189029.htm -->
+            </div>
+            <!-- Esimene sektsioon -->
+            <div class="footer_sc">
+                <h1>Menüü</h1>
+                <a href="avaleht.html">Avaleht</a>
+                <a href="hinnakiri.html">Hinnakiri</a>
+                <a href="kontakt.html">Kontakt</a>
+            </div>
+            <!-- Teine sektsioon -->
+            <div class="footer_sc">
+                <h1>Kuhu tulla?</h1>
+                <a href="#">Asukoht:</a>
+                <a href="#">Tartu Vald, Sepa küla</a>
+            </div>
+            <!-- Kolmas sektsioon -->
+            <div class="footer_sc">
+                <a onclick="toTop()"><h1 id="upbutton">Tagasi üles</h1></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,70 @@
+video {
+    filter: blur(15px);
+}
+
+.overlayText {
+    font-family: "Poppins", sans-serif;
+    position: absolute;
+    z-index:1;
+    top: 40%;
+    left: 35%;
+    color: white;
+    font-size: 100px;
+    animation: overlayTextAnimation 5s;
+}
+
+.bodyCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 1200px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding: 35px;
+}
+
+.pictureCard {
+    max-height: 100%;
+    width: auto;
+}
+.portrait {
+    border-radius: 15%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.textCard {
+    display: flex;
+    align-self: flex-end;
+    align-content: center;
+    width: 350px;
+    height: auto;
+    border-radius: 15%;
+    background-color: #F2DDA4;
+    padding: 45px;
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+
+/*animatsioon*/
+@keyframes overlayTextAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/*kui ekraani laius on <= 820px siis rakendab antud väärtused*/
+@media (max-width: 820px) {
+    .overlayText {
+        top: 15%;
+        left: 35%;
+        font-size: 50px;
+    }
+}
+
+

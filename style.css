@@ -18,7 +18,6 @@ body {
 
 .inner_block_h { /* pika riba sees olev väiksem riba */
     height: 100%;
-    width: 1000px;
     display: block;
     margin: 0 auto;
     background-color: #f2dda4;
@@ -27,6 +26,7 @@ body {
 
 .logo_block h1 { /* logo jaoks eraldatud osa h1 */
     height: 100%;
+    padding-left: 25px;
     display: table-cell;
     vertical-align: middle;
     font-family: "Poppins", sans-serif;
@@ -38,6 +38,7 @@ body {
     height: 100%;
     float: left;
     display: table;
+    padding-left: 25px;
 }
 
 .logo_block img {
@@ -72,7 +73,7 @@ body {
 }
 
 .footer { /* footer riba */
-    width: 100vw;
+    width: 100%;
     display: block;
     overflow: hidden;
     padding: 70px 0;
