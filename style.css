@@ -40,6 +40,11 @@ body {
     display: table;
 }
 
+.logo_block img {
+    width: 150px;
+    height: 100%;
+}
+
 .menu { /* menüü ise paikneb paremale */
     height: 100%;
     float: right;
